@@ -2,16 +2,19 @@
 1. Introduction
 
 The video game industry has seen exponential growth over the past few decades. To remain competitive, developers and publishers must understand what drives game sales and user engagement. This project analyzes video game sales and user interaction data to uncover patterns in game popularity, user behavior, and platform performance.
-3. Problem Statement
+
+2. Problem Statement
 
 The project aims to analyze and visualize video game sales and engagement data to uncover trends in game popularity, user behavior, and platform performance. By merging sales and engagement data, we seek to offer insights into how game features, platforms, and genres influence sales, wishlists, and ratings. SQL is used to structure and store the data, while Power BI dashboards are developed to support decision-making for game developers, marketers, and publishers.
-4. Solution
+
+3. Solution
 
 •	Two separate datasets — one for sales and one for engagement — are merged using SQL based on matching game titles and platforms.
 •	Data Cleaning is done using Python (pandas) to prepare the datasets for merging.
 •	Exploratory Data Analysis (EDA) is performed using seaborn and matplotlib to identify trends, correlations, and outliers.
 •	The cleaned, merged data is visualized using Power BI dashboards, making it easier to extract actionable insights.
-5. Dataset Description
+
+4. Dataset Description
 
 A. games.csv (User Engagement Data)
 
